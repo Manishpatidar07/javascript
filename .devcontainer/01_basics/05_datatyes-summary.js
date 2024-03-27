@@ -14,5 +14,14 @@ let Myobj = {     //object example
 }
 
 const myFunction = function(){
-console.log("Hello world");
+//console.log("Hello world");
 }
+
+// https:262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++++++++++++++++ Type of memory+++++++++++++++++++++++
+//Stackmemoryp(primitive), Heapmemory(Non-primitive)
+
+let myYoutubename = "manishpatidar"
+let anothername = myYoutubename;
+console.log(anothername);
